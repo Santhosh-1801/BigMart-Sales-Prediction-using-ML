@@ -2,6 +2,8 @@ import streamlit as st
 import joblib
 import sklearn
 
+st.set_page_config(page_title='BigMart Sales Prediction')
+
 
 
 sc = joblib.load("scalingtype.sav")
